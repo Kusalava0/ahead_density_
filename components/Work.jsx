@@ -13,11 +13,12 @@ const Work = () => {
                     <div className='bg-white px-8 py-8 mt-10 rounded-t-3xl'>
                         <Image
                             src='/assets/images/work.png'
+                            alt='img'
                             width={75}
                             height={75}
                         />
                         <h3 className='text-2xl font-semibold text-gray-700'>About</h3>
-                        <p className='text-2xl text-gray-600'>At ahead ouour goal is to make self-<br />improvement fun and lasting. We know there's<br />a way how t make it work. And that's what<br />aHead is all about!</p>
+                        <p className='text-2xl text-gray-600'>At ahead ouour goal is to make self-<br />improvement fun and lasting. We know theres<br />a way how t make it work. And thats what<br />aHead is all about!</p>
                     </div>
 
                     <div className='px-8 py-8 bg-orange-50 rounded-b-3xl'>

@@ -10,10 +10,10 @@ const Privacy = () => {
                 <p className=' mt-12 font-bold text-4xl text-gray-800'>Before you get started</p>
             </div>
             <div>
-                <p className=' mt-6 text-2xl font-medium text-gray-600'>"We won't share your answers with anyone (and won't ever tell</p>
+                <p className=' mt-6 text-2xl font-medium text-gray-600'>We wont share your answers with anyone (and wont ever tell</p>
             </div>
             <div>
-                <p className='text-2xl font-medium text-gray-600'> you which friends said what about you)"</p>
+                <p className='text-2xl font-medium text-gray-600'> you which friends said what about you)</p>
 
             </div>
             <div className=' mt-12 font-medium text-2xl text-gray-800'>

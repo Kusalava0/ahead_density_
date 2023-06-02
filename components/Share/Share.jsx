@@ -17,6 +17,7 @@ const Share = () => {
                 <div className='flex flex-col items-center strike-through'>
                     <Image
                         src='/assets/images/badge.png'
+                        alt='img'
                         width={100}
                         height={100}
                         className='object-contain rounded-full'
@@ -26,6 +27,7 @@ const Share = () => {
                 <div className='flex flex-col items-center strike-through'>
                     <Image
                         src='/assets/images/badge.png'
+                        alt='img'
                         width={100}
                         height={100}
                         className='object-contain rounded-full'
@@ -36,6 +38,7 @@ const Share = () => {
                 <div className='flex flex-col items-center strike-through'>
                     <Image
                         src='/assets/images/badge.png'
+                        alt='img'
                         width={100}
                         height={100}
                         className='object-contain rounded-full'

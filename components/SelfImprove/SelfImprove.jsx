@@ -6,12 +6,13 @@ const SelfImprove = () => {
     return (
         <div className='grid grid-flow-row w-11/12 ml-16 mt-32 mb-32 h-1/4 font-inter font-medium'>
             <div className=' ml-10 text-2xl'>
-                <p>Wrong with self-improvement & how we're fixing it.</p>
+                <p>Wrong with self-improvement & how we are fixing it.</p>
             </div>
             <div className=' ml-10 text-6xl font-bold flex flex-row'>
                 <p>Self-improvement. Ugh. </p>
                 <Image
                     src='/assets/images/improve.png'
+                    alt='img'
                     width={100}
                     height={100}
                     className='relative bottom-8'
@@ -25,7 +26,7 @@ const SelfImprove = () => {
                         <div className='relative'>
                             <div className='dot'></div>
                             <div className='pl-10'>
-                                <h3 className='timeline-title'>It's not as easy as 1-2-3</h3>
+                                <h3 className='timeline-title'>Its not as easy as 1-2-3</h3>
                                 <p className='text-gray-500'>
                                     The journey of change may be long but our sessions are quick. We get<br />
                                     to the point and tell you what you want to know(and nothing else)<br />
@@ -45,7 +46,7 @@ const SelfImprove = () => {
                         <div className='relative'>
                             <div className='dot'></div>
                             <div className='pl-10'>
-                                <h3 className='timeline-title'>You and your motivation don't have a long-term relationship.</h3>
+                                <h3 className='timeline-title'>You and your motivation donot have a long-term relationship.</h3>
                                 <p className='text-gray-500'>
                                     Luckily, we can proactively prepare you for the marathon not just the<br />
                                     race. Effective, memorable exercises will help you stick to your globals.<br />
@@ -55,9 +56,9 @@ const SelfImprove = () => {
                         <div className='relative'>
                             <div className='dot'></div>
                             <div className='pl-10'>
-                                <h3 className='timeline-title'>Books just don't offer practical</h3>
+                                <h3 className='timeline-title'>Books just do n0t offer practical</h3>
                                 <p className='text-gray-500'>
-                                    Remember when you learned to ride a bike just by reading? Yeah, we don't either.<br />
+                                    Remember when you learned to ride a bike just by reading? Yeah, we do not either.<br />
                                     We help you take concrete small steps towards your goals. Learning just a bit, then <br />
                                     immediately sprinting into action
                                 </p>

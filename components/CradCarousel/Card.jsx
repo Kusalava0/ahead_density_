@@ -1,6 +1,7 @@
 'use client'
 import React, { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
+import Image from "next/image";
 
 const Card = ({ data }) => {
     const containerRef = useRef(null);
@@ -85,7 +86,7 @@ const Card = ({ data }) => {
                     key={index}
                     className={`flex-shrink-0 w-96 px-8 py-6 mx-2 ${item.backgroundColor} rounded-lg`}
                 >
-                    <img src={item.image} alt="Card" className=" w-10 h-10 mb-8 object-cover rounded-full" />
+                    <Image src={item.image} alt="Card" className=" w-10 h-10 mb-8 object-cover rounded-full" />
                     <h2 className="text-xl font-semibold mt-4">{item.heading}</h2>
                     <p className="mt-2">{item.description}</p>
                     {/* {console.log(index)} */}

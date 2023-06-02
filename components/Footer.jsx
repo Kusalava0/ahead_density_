@@ -7,6 +7,7 @@ const Footer = () => {
             <div>
                 <Image
                     src='/assets/images/logo.png'
+                    alt='img'
                     width={75}
                     height={75}
                     className='object-contain'
@@ -18,6 +19,7 @@ const Footer = () => {
                     <a href='https://maps.google.com/'>
                         <Image
                             src='/assets/images/location.png'
+                            alt='img'
                             width={50}
                             height={50}
                             className='object-contain rounded-full'
@@ -29,6 +31,7 @@ const Footer = () => {
                     <a href='mailto:hi@ahead-app.com'>
                         <Image
                             src='/assets/images/mail.png'
+                            alt='img'
                             width={50}
                             height={50}
                             className='object-contain'
