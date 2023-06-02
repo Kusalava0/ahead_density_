@@ -1,0 +1,25 @@
+.expanded {
+    height: auto;
+  }
+  
+  .vacancy__card {
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+    transform-origin: top;
+  }
+  
+  .vacancy__card.expanded {
+    transform: scaleY(1);
+  }
+  
+  .vacancy__card button {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .vacancy__card.expanded button {
+    opacity: 1;
+    transition-delay: 0.5s;
+  }
+  

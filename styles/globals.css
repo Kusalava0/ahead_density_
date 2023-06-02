@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main {
+  width: 100vw;
+  min-height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 120px 24px 160px 24px;
+  pointer-events: none;
+  /* background-color: #fefffe; */
+}
+
+.app {
+  background-color: #fefffe;
+  overflow: hidden;
+}
+
+.black_btn {
+  @apply rounded-full border border-black bg-black py-3.5 px-6 text-white transition-all hover:bg-white hover:text-black text-center text-sm font-inter flex items-center justify-center;
+}
+
+.intro__card {
+  background-color: #efecff;
+  border-radius: 3rem;
+}
+
+.info__card {
+  border-radius: 3rem;
+}
+
+.head_text {
+  @apply mt-5 text-9xl font-bold leading-[1.15] text-black sm:text-6xl;
+}
+
+.btn_text {
+  @apply font-medium leading-[1.15] text-white text-lg;
+}
+
+.desc {
+  @apply text-sm text-gray-500;
+}
+
+.ahead .ahead__flow {
+  height: 41.5rem;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #b09ef3;
+}
+
+.circle {
+  position: relative;
+  margin: 20px;
+  height: 120px;
+  width: 120px;
+  /* background-color: orange; */
+  border-radius: 50%;
+}
+
+
+.circle:before {
+  position: absolute;
+  z-index: 2;
+  content: '';
+  height: calc(100% + 350px);
+  width: calc(100% + 350px);
+  border: 8px dashed white;
+  top: 100%;
+  left: 25px;
+  border-radius: inherit;
+  animation: spin 50s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.circle img {
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+}
